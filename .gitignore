@@ -1,0 +1,40 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/.php_cs.cache
+/tmp
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+
+# Composer dependencies
+/vendor
+
+# Bootstrap files copied on "post-update-cmd" step in composer.json
+/public/bootstrap
+
+# Folders with IDE`s settings
+/.idea
+/.vscode
+
+.phpunit.result.cache
+/.phpunit.cache
+
+# php-cs-fixer
+.php-cs-fixer.cache
+
+# PHPUnit coverage files
+/storage/coverage
+
+# Files with identifiers
+foo*.csv
+*.csv.success
+*.csv.duplicates
+*.csv.errors
+
+# OS X
+.DS_Store
